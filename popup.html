@@ -10,6 +10,17 @@
     <div id="chat-window"></div>
     <input type="text" id="chat-input" placeholder="Type your message here...">
     <button id="send-button">Send</button>
+    <select id="model-selection">
+      <option value="gpt-4">GPT-4</option>
+      <option value="claude-3-opus">Claude 3 Opus</option>
+    </select>
+    <button id="settings-button">Settings</button>
+  </div>
+  <div id="sidebar">
+    <h3>Conversation History</h3>
+    <div id="conversation-history"></div>
+    <h3>Summaries</h3>
+    <div id="summaries"></div>
   </div>
   <script src="popup.js"></script>
 </body>
