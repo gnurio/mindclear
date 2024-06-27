@@ -15,12 +15,21 @@
       <option value="claude-3-opus">Claude 3 Opus</option>
     </select>
     <button id="settings-button">Settings</button>
+    <button id="context-button">Manage Context</button>
   </div>
   <div id="sidebar">
     <h3>Conversation History</h3>
     <div id="conversation-history"></div>
     <h3>Summaries</h3>
     <div id="summaries"></div>
+  </div>
+  <div id="context-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h2>Manage Context</h2>
+      <textarea id="context-input" placeholder="Add custom instructions..."></textarea>
+      <button id="save-context-button">Save</button>
+    </div>
   </div>
   <script src="popup.js"></script>
 </body>

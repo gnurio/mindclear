@@ -19,6 +19,6 @@
     "oauth2": {
       "client_id": "YOUR_GOOGLE_CLIENT_ID",
       "scopes": ["openid", "profile", "email"]
-    }
+    },
+    "options_page": "settings.html"
   }
-  
